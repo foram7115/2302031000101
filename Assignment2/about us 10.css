@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+.background {
+    background-image: url('https://graphicsfamily.com/wp-content/uploads/edd/2021/07/Thumbnail-scaled.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+    color: black;
+    position: relative;
+}
+.content {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 16px;
+    color: black;
+}
+h1 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+.continue {
+    color: black;
+    font-weight: bold;
+}
+.green-life {
+    color: #6bc66b;
+    font-weight: bold;
+}
+footer {
+    background-color: #064d06;
+    padding: 20px 0;
+  } 
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+  }
+  .footer-section {
+    margin: 10px 20px;
+    text-align: center;
+  }
+  .logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-logo {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+  .follow-us img,
+  .contact-us img {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+  }
+  .contact-us a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  .contact-us a:hover {
+    text-decoration: underline;
+  }
+  .footer-nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 0;
+  }
+  .footer-nav a:hover {
+    text-decoration: underline;
+  }
+  @media (max-width: 768px) {
+    .buttons-container {
+      width: 90%;
+    }
+  
+    .btn-item {
+      flex-direction: row;
+    }
+  
+    footer {
+      text-align: center;
+    }
+  
+    .footer-container {
+      flex-direction: column;
+    }
+  }

@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #008000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  header h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+  }
+  .buttons-container {
+    background: #008000;
+    padding: 30px;
+    border-radius: 12px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .btn-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .star-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .option-btn {
+    background-color: #d3d3d3; 
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+  }
+  .option-btn:hover {
+    background-color: #ccc;
+  }
+  .continue-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #d3d3d3;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 80%;
+    max-width: 300px;
+  }
+  .continue-btn:hover {
+    background-color: #ccc;
+  }
+  footer {
+    background-color: #064d06;
+    padding: 20px 0;
+  } 
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+  }
+  .footer-section {
+    margin: 10px 20px;
+    text-align: center;
+  }
+  .logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-logo {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+  .follow-us img,
+  .contact-us img {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+  }
+  .contact-us a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  .contact-us a:hover {
+    text-decoration: underline;
+  }
+  .footer-nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 0;
+  }
+  .footer-nav a:hover {
+    text-decoration: underline;
+  }
+  @media (max-width: 768px) {
+    .buttons-container {
+      width: 90%;
+    }
+  
+    .btn-item {
+      flex-direction: row;
+    }
+  
+    footer {
+      text-align: center;
+    }
+  
+    .footer-container {
+      flex-direction: column;
+    }
+  }
